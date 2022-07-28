@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #F5F7FB;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+label {
+    margin: 10px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
