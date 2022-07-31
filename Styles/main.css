@@ -1,13 +1,38 @@
 body {
-    margin: 0;
-    font-family: 'Karla', sans-serif;
-    background-color: #F5F7FB;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(255, 255, 255);
+
+background: linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 25%, hsla(190, 100%, 42%, 1) 50%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 77%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 25%, hsla(190, 100%, 42%, 1) 50%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 77%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(239, 94%, 19%, 1) 0%, hsla(201, 100%, 36%, 1) 25%, hsla(190, 100%, 42%, 1) 50%, hsla(189, 75%, 75%, 1) 75%, hsla(190, 77%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#03045e", endColorstr="#0077b6", GradientType=1 );
 }
-* {
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ /*color personalizado*/
+.btn-primary {
+    background-color: #66bfbf;
+}
+
+.btn-secondary {
+    font-family: 'Montserrat', sans-serif;
+    background:0;
+    color: white;
+    text-shadow: 1px #fff;
+}
+
+
+/* {
     box-sizing: border-box;
 }
 .App {
-    /* display: flex; */
+    /* display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -15,7 +40,7 @@ body {
 }
 
 
-nav{
+/*nav{
     position: sticky;
     top:0;
     display: flex;
@@ -25,9 +50,9 @@ nav{
     background-color: #eaeaea;
     transition: top 500ms ease-in-out;
 
-}
+}*/
 
-nav a{
+/*nav a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,4 +85,4 @@ table,
 th, 
 td {
     border: 1px solid black;
-}
+}*/
